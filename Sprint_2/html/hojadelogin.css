@@ -1,0 +1,67 @@
+body, html{
+    height: 100%;
+    background-image: url("G:/python/html/back_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.form-box{
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: backindown;
+    animation-duration: 2s;
+}
+.form-box{
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+    background: #01168d;
+    text-align: center;
+}
+
+.form-title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box button[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+    text-align: center;
+    border: 2px solid #a1a5ff;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.3s;
+}
+
+.form-box input[type="text"]:focus,
+.form-box input[type="password"]:focus {
+    width :280px;
+    border-color: #fff;
+}
+
+.form-box button[type="submit"]{
+    border: 0;
+    background: #5352ed;
+    
+}
